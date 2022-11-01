@@ -1,16 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: rgb(82, 0, 82);
 }
 
-h1 {
+#title {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
 
 }
+.ml6 {
+  position: absolute;
+  top: 0;
+  font-weight: 900;
+  font-size: .7em;
+}
 
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  font-family: 'Fasthand', cursive;
+  line-height: 1em;
+}
+/* .ml6 .letterr {
+  display: inline-block;
+  font-family: 'Fasthand', cursive;
+  line-height: 1em;
+} */
+/* .ml6 .letter1 {
+  display: inline-block;
+  font-family: 'Fasthand', cursive;
+  line-height: 1em;
+} */
+
+
+
+#preloader{
+  background: rgb(82, 0, 82);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  /* z-index: 100; */
+  /* 
+ */
+}
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
@@ -73,4 +125,80 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+
+/* logo Animation starts here */
+h1.ml8 {
+  font-weight: 900;
+  font-size: .5em;
+  color: #fff;
+  /* width: 3em;
+  height: 3em; */
+}
+
+.ml8 .letters-container {
+  position: absolute;
+  /* left: 0;
+  right: 0; */
+  /* margin: auto; */
+  /* top: 0; */
+  bottom: 35%;
+  left: 46.8%;
+  height: 1em;
+}
+
+.ml8 .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  /* right: -0.12em; */
+  /* top: 0; */
+  color: #ffffff;
+  font-size:1em;
+}
+.ml8 .letters-left{
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.ml8 .bang {
+  font-size: 1.4em;
+  color:rgb(82, 0, 82);
+  /* top: 0; */
+  /* left: -0.06em; */
+}
+
+.ml8 .circle {
+  position: absolute;
+  /* margin: 2rem 2rem 0 0; */
+ /* top: auto; */
+ bottom: 30%;
+ left: 46%;
+ 
+}
+
+.ml8 .circle-white {
+  width: 2.5em;
+  height: 2.5em;
+  border: 2px dashed #eaff00;
+  border-radius: 2em;
+}
+
+.ml8 .circle-dark {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #ff9500;
+  margin-left: .2rem;
+  margin-bottom: .1rem;
+  border-radius: 3em;
+  z-index: 1;
+}
+
+.ml8 .circle-dark-dashed {
+  border-radius: 3em;
+  background-color: transparent;
+  border: 3px dashed #eaff00;
+  width: 2.5em;
+  height: 2.5em;
 }
